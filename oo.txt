@@ -1,24 +1,18 @@
 {
 //资料来自于网络，介意请联系删除，不做商业用途，仅作学习。
-"spider": "https://gitee.com/shuai7wl/baxx/raw/master/jar/fan.txt",
+"spider": "https://gh.xxooo.cf/https://raw.githubusercontent.com/shuai7wl/ba/xx/jar/fan.txt",
 	"warningText": "学习自用，切勿付费购买。",
   "wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "lives":[
-{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/shuai7wl/ba/xx/live.txt","playerType":1,"ua":"okhttp/3.15","epg":"https://diyp2.112114.xyz/?ch={name}&date={date}","logo":"https://diyp2.112114.xyz/logo/{name}.png"},
+{"name":"直播","type":0,"url":"https://gh.xxooo.cf/https://raw.githubusercontent.com/shuai7wl/ba/xx/live.txt","playerType":1,"ua":"okhttp/3.15","epg":"https://diyp2.112114.xyz/?ch={name}&date={date}","logo":"https://diyp2.112114.xyz/logo/{name}.png"},
 {"name":"IPV6","type":0,"url":"https://live.fanmingming.com/tv/m3u/ipv6.m3u","playerType":1,"ua":"okhttp/3.15","epg":"https://diyp2.112114.xyz/?ch={name}&date={date}","logo":"https://diyp2.112114.xyz/logo/{name}.png"}
 ]
 ,
 "sites": [
   {"key":"豆豆","name":"🔍┃豆瓣┃荐片","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
-//{"key":"t4_聚合","name":"📡┃豆瓣┃荐片","type":3,"api":"https://gitee.com/shuai7wl/baxx/raw/master/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://gitee.com/shuai7wl/baxx/raw/master/js/douban.js"},//https://weixine.net/js/douban.js
-//{"key":"豆瓣","name":"🔍┃豆瓣┃荐片","type":3,"api":"https://gitee.com/shuai7wl/baxx/raw/master/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"https://weixine.net/js/douban.js"},//https://weixine.net/js/douban.js
-//{"key": "csp_Douban","name": "🔍️豆瓣®排行","type": 3,"api": "csp_Douban","ext": "https://gitee.com/hongfeiq/cfg/raw/master/sub/douban.json"},🧿
-        {"key":"csp_KungFu404","name":"🎦┃阿里┃设置","type": 3,"api":"csp_KungFu404","searchable":1,"filterable": 0,"changeable":0,"jar":"https://weixine.net/alibaba.jar"},
-//{"key":"WOGG","name":"👽┃WO┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹幕"},
+{"key":"csp_KungFu404","name":"🎦┃阿里┃设置","type": 3,"api":"csp_KungFu404","searchable":1,"filterable": 0,"changeable":0,"jar":"https://weixine.net/alibaba.jar"},
 {"key":"WOGG","name":"👽┃WO┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"},
-//{"key":"t4_wo","name":"🚛玩偶┃T4","type":4,"api":"http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=94fd5ab297e24a769bb762375118ec47","searchable":1,"quickSearch":1,"filterable":1},
-//{"key":"YGP","name":"🚀叨观荐影┃速递","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
-        {"key":"Czsapp","name":"📔┃厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzy66.com/"},//https://www.cz01.vip/ /https://czz9.com
+{"key":"Czsapp","name":"📔┃厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext": "https://www.czzy66.com/"},//https://www.cz01.vip/ /https://czz9.com
 {"key":"csp_SP33","name":"📺┃三三┃解析","type":3,"api":"csp_SP33","searchable":1,"quickSearch":1,"filterable":1,"changeable":0},
 //{"key":"巧技四","name":"🌏┃广东┃App","type":3,"api":"csp_qiao2","jar":"http://cdn.qiaoji8.com/fix12210.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji4"},
 //{"key":"巧技二","name":"🎯┃深圳┃App","type":3,"api":"csp_qiao2","searchable":0,"quickSearch":0,"jar":"http://cdn.qiaoji8.com/fix12210.jar","playerType":2,"ext":"https://jihulab.com/qiaoji/open/-/raw/main/qiaoji2"},
