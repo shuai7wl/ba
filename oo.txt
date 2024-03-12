@@ -981,9 +981,7 @@
             "jar":"https://gitee.com/shuai7wl/baxx/raw/master/jar/my_spider.jar",
             "ext": {
                 "site": "http://wogg.xyz/",
-                //"token": "https://gitee.com/hongfeiq/cfg/raw/master/sub/ali.txt",
                 "token": "http://127.0.0.1:9978/file/tvfan/token.txt"
-                //"filter": "https://gitee.com/hongfeiq/cfg/raw/master/sub/wogg.json"
             },
             "hide": 0
         },
@@ -997,13 +995,6 @@
         //{"key": "csp_mg","name": "🎫芒粿®官源","type": 3,"api": "csp_MGTV"},
         {"key": "drpy_360","name": "🎫360®官源","type": 3,"api": "https://gitee.com/shuai7wl/baxx/raw/master/fm/api/ddrpy2.m.js","ext": "https://gitee.com/shuai7wl/baxx/raw/master/txt/360yingshi.js"},
        //-----------------------------------------------------------------------------
-      {
-            "key": "js_libvio",
-            "name": "🎞┃立播┃影视",
-            "type": 3,
-            "api": "https://cf.weixine.net/js/lib/drpy2.min.js",
-            "ext": "https://gitee.com/hongfeiq/cfg/raw/master/js/libvio_drpy.js"
-        },
         {
             "key": "新视觉影院",
             "name": "🎞┃新视觉┃影视",
@@ -1011,7 +1002,7 @@
             "api": "https://cf.weixine.net/js/lib/drpy2.min.js",
             "searchable": 1,
             "changeable": 1,
-            "ext": "https://drpy.cainisi.cf/js/新视觉影视.js"
+            "ext": "https://cf.weixine.net/js/新视觉影视.js"
         },
         //{
         //    "key": "农民影视",
@@ -1418,64 +1409,13 @@
          }
       },
         {
-            "key": "js_hyzb",
-            "name": "🎦虎牙®直播",
-            "type": 3,
-            "api": "https://gitee.com/hongfeiq/cfg/raw/master/js/lib/drpy2.min.js",
-            "recordable": 0,
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://gitee.com/hongfeiq/cfg/raw/master/js/huya_dypy.js",
-            "playerType": 2
-        },
-        {
-            "key": "csp_Bili",
-            "name": "🎦哔哩®直播",
-            "type": 3,
-            "jar":"https://gitee.com/shuai7wl/baxx/raw/master/jar/my_spider.jar",
-            "api": "csp_Bili",
-            "searchable": 1,
-            "changeable": 0,
-            "playerType": 2,
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "ext": {
-                "json": "https://gitee.com/hongfeiq/cfg/raw/master/sub/bili.json",
-                "type": "帕梅拉#太极拳#广场舞#演唱会",
-                "cookie": ""
-            }
-        },
-        {
-            "key": "csp_alist",
-            "name": "💾AList®网盘",
-            "type": 3,
-            "jar":"https://gitee.com/shuai7wl/baxx/raw/master/jar/my_spider.jar",
-            "api": "csp_AList",
-            "recordable": 0,
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://gitee.com/hongfeiq/cfg/raw/master/sub/alist.json"
-        },
-        {
-            "key": "quark_qupan",
-            "name": "📀趣盘搜®Quark",
-            "type": 3,
-            "jar":"https://gitee.com/shuai7wl/baxx/raw/master/jar/my_spider.jar",
-            "api": "https://gitee.com/hongfeiq/cfg/raw/master/js/funletu.js",
-            "changeable": 0,
-            "ext": "https://gitee.com/hongfeiq/cfg/raw/master/sub/cok.txt",
-            "hide": 1
-        },
-        {
             "key": "PanSearchQuark",
             "name": "📀盘搜®Quark",
             "type": 3,
             "jar":"https://gitee.com/shuai7wl/baxx/raw/master/jar/my_spider.jar",
             "api": "csp_PanSearchQuark",
             "changeable": 0,
-            "ext": "https://gitee.com/hongfeiq/cfg/raw/master/sub/cok.txt",
+            "ext": "http://127.0.0.1:9978/file/tvfan/token.txt",
             "hide": 1
         },
         {
