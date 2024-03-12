@@ -39,8 +39,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      //"jar": "https://fs-im-kefu.7moor-fs1.com/29397395/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1704761840381/c (1).txt;md5;bb155c3f0133bbce4756ad52003f5968",
-      "jar": "https://gitee.com/luodayouv5/lsvip/blob/master/lib/xbpq.jar",
+      "jar": "https://gh.xxooo.cf/https://raw.githubusercontent.com/shuai7wl/ba/xx/jar/xbpq.txt",
       "playerType": "2",
       "api": "csp_XBPQ",
       "ext": {
