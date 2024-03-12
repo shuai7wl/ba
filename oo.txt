@@ -10,6 +10,11 @@
 "sites": [
   {"key":"豆豆","name":"🔍┃豆瓣┃荐片","type": 3, "api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
 {"key":"csp_KungFu404","name":"🎦┃阿里┃设置","type": 3,"api":"csp_KungFu404","searchable":1,"filterable": 0,"changeable":0,"jar":"https://weixine.net/alibaba.jar"},
+{"key":"本地","name":"本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
+{"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/json/alist.json"},
+{"key":"WebDAV","name":"WebDAV","type":3,"jar":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar","api":"csp_WebDAV","searchable":0,"changeable":0,"ext":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/json/webdav.json"},
+{"key":"JustLive","name":"JustLive","type":3,"jar":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar","api":"csp_JustLive","searchable":1,"changeable":0},
+{"key":"drpy_js_ikanbot3","name":"线路超多","type":3,"api":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"ext":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/js/ikanbot3.js"},
 {"key":"WOGG","name":"👽┃WO┃4K弹幕","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":"http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://wogg.xyz/$$$弹"},
 {"key":"YGP","name":"🚀叨观荐影┃新片","type":3,"api":"csp_YGP","searchable":0,"quickSearch":0,"changeable":0},
 {"key":"酷看","name":"💡酷看┃秒播","type":3,"api":"csp_Kkys","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
@@ -608,6 +613,17 @@
          "ext": "https://www.maolvys.com/"
       },
 //---------------------------------------------------
+{"key":"暴風","name":"😎┃暴風┃影视","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
+{"key":"索尼","name":"😎┃索尼┃影视","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"changeable":1},
+{"key":"快帆","name":"😎┃快帆┃影视","type":1,"api":"https://api.kuaifan.tv/api.php/provide/vod","searchable":1,"changeable":1},
+{"key":"量子","name":"😎┃量子┃影视","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod","searchable":1,"changeable":1},
+{"key":"非凡","name":"😎┃非凡┃影视","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod","searchable":1,"changeable":1},
+{"key":"T4-duanju5","name":"😎┃短剧┃影视","type":4,"api":"https://catbox.n13.club/duanju5.php","searchable":1,"quickSearch":1,"filterable":1,"changeable":0,"ext":true},
+{"key":"哔哩","name":"😎┃哔哩┃影视","jar":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar","type":3,"api":"csp_Bili","searchable":1,"changeable":0,"style":{"type":"rect","ratio":1.433},
+"ext":{"json":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/json/bili.json","type":"帕梅拉#太极拳#广场舞#演唱会","cookie":""}},
+{"key":"bili_open","name":"😎┃哔貓┃影视","jar":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar","type":3,"api":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/cat/js/bili_open.js","searchable":1,"changeable":0,"ext":{"categories":"短剧#沙雕动画#沙雕穿越#沙雕","cookie":""}},
+{"key":"酷狗","name":"😎┃酷狗┃影视","type":3,"jar":"https://github.moeyy.xyz/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/custom_spider.jar","api":"csp_Kugou","searchable":0,"changeable":0},
+//----------------------------------------------------
 //{"key":"加速器","name":"😎┃加速┃影视","type":3,"jar":"http://tv.nxog.top/m/jar.php?id=ou","api":"csp_AppYs","searchable":1,"quickSearch":1,"ext":"http://m.hhssyyss.icu/ruifenglb_api.php/v1.vod"},
 {"key":"酷影视","name":"😎┃酷影┃影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.tvkuys.xyz/api.php/app/"},
 //{"key":"极速播","name":"😎┃极速┃影视","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.gsjtlxy.top/xgapp.php/v3/"},
