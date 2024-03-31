@@ -1534,7 +1534,7 @@
         },{
             "name": "🎯嗅探3",
             "type": 0,
-            "url": "https://jx.777jiexi.com/player/?url=",
+            "url": "https://jx.xmflv.com/?url=",//https://jx.777jiexi.com/player/?url=
             "ext": {
                 "flag": [
                     "qiyi",
@@ -1553,7 +1553,7 @@
         },{
             "name": "🎯嗅探4",
             "type": 0,
-            "url": "https://jx.xmflv.com/?url=",
+            "url": "https://jx.nnxv.cn/tv.php?url=",
             "ext": {
                 "flag": [
                     "qiyi",
@@ -1572,7 +1572,7 @@
         },{
             "name": "🎯嗅探5",
             "type": 0,
-            "url": "https://jx.jsonplayer.com/player/?url=",
+            "url": "https://jx.m3u8.tv/jiexi/?url=",//https://jx.jsonplayer.com/player/?url=
             "ext": {
                 "flag": [
                     "qiyi",
@@ -1591,7 +1591,26 @@
         },{
             "name": "🎯嗅探6",
             "type": 0,
-            "url": "https://www.pouyun.com/?url=",
+            "url": "https://jx.m3u8.tv/jiexi/?url=",//https://jx.jsonplayer.com/player/?url=
+            "ext": {
+                "flag": [
+                    "qiyi",
+                    "iqiyi",
+                    "youku",
+                    "qq",
+                    "mgtv",
+                    "le",
+                    "bilibili",
+                    "sohu"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.1.0"
+                }
+            }
+        },{
+            "name": "🎯嗅探7",
+            "type": 0,
+            "url": "https://www.8090g.cn/?url=",
             "ext": {
                 "flag": [
                     "qiyi",
