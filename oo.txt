@@ -1591,7 +1591,7 @@
         },{
             "name": "🎯嗅探6",
             "type": 0,
-            "url": "https://www.8090g.cn/?url=",
+            "url": "https://vip.bljiex.com/?v=",//https://www.8090g.cn/?url=
             "ext": {
                 "flag": [
                     "qiyi",
